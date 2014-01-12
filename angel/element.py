@@ -100,7 +100,7 @@ class Element(list):
         return obj in list(self)
 
     def __mul__(self, n):
-        return WeakList(list(self) * n)
+        return Element(list(self) * n)
 
     def __imul__(self, n):
         self._refs *= n
