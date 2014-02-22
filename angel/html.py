@@ -2,10 +2,16 @@
 
 import re
 
+from cgi import htmlunesacpe
+
+
 
 def html_unescape(html):
 
-    return html
+    return htmlunescape(html)
+
+
+    
 
 
 def xml_escape(xml):
